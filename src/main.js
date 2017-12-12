@@ -87,7 +87,7 @@ export default class Main extends React.Component {
         <LocationSearch value={position && (position.feature || position.formattedAddress)}/>
         <LocationPin onPress={this.onBookingRequest} />
         <ClassSelection />
-        {/* <ConfirmationModal visible={confirmationModalVisible} onClose={this.handleCloseConfirmationModal}/> */}
+        <ConfirmationModal visible={confirmationModalVisible} onClose={this.handleCloseConfirmationModal}/>
       </View>
     );
   }
