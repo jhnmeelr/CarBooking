@@ -84,9 +84,9 @@ export default class Main extends React.Component {
               </MapView.Marker>
           ))}
         </MapView>
-        {/* <LocationSearch value={position && (position.feature || position.formattedAddress)}/> */}
-        {/* <LocationPin onPress={this.onBookingRequest} /> */}
-        {/* <ClassSelection /> */}
+        <LocationSearch value={position && (position.feature || position.formattedAddress)}/>
+        <LocationPin onPress={this.onBookingRequest} />
+        <ClassSelection />
         {/* <ConfirmationModal visible={confirmationModalVisible} onClose={this.handleCloseConfirmationModal}/> */}
       </View>
     );

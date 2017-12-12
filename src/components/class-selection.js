@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
     top: 10,
   },
   classLabel: {
+    fontFamily: 'Blair ITC',
     paddingTop: 5,
     fontSize: 12,
   },
